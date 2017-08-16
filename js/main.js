@@ -122,7 +122,7 @@ var ctx;
                         first_pick = true; //note  
                         second_card = i;  
                         ctx.drawImage(card.img, card.sx, card.sy, card.swidth, card.sheight);  
-                        tid=setTimeout(flip_back,1000);  
+                        tid=setTimeout(flip_back,100);  
                     }  
                       
                 }  
